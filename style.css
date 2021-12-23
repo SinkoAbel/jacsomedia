@@ -1,0 +1,212 @@
+
+:root {
+    --pink_font: deeppink;
+    --purple_font: rebeccapurple;
+}
+
+/* header */
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.verti-line{
+    border-left: 4px solid var(--pink_font);
+    height: 80px;
+}
+
+.left_table h1 {
+    color: var(--purple_font);
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.border-header-right {
+    border-left: 2px solid lightgray;
+    text-align: center;
+
+}
+
+
+
+.logo {
+    float: right;
+    margin-top: 15px;
+}
+
+.right_table {
+    float: right;
+    color: var(--purple_font);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.upper_row {
+    padding-right: 20px;
+}
+
+.horizont_line {
+    border: solid 2px lightgray;
+}
+
+.bottom_row a, a:visited {
+    color: var(--purple_font);
+    text-decoration: none;
+}
+
+.bottom_row a:hover {
+    color: var(--pink_font);
+    transition: 0.5s;
+}
+
+
+/* navi */
+.mystuff {
+    margin-left: 30px;
+}
+
+.line {
+    border-left: 2px solid lightgray;
+    height: auto;
+}
+
+.currently_active {
+    ccolor: deeppink;
+}
+
+
+/* footer */
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.footer_text {
+    font-size: 14px;
+}
+
+.footer_links{
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.footer_links a, a:visited {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: var(--purple_font);
+    text-decoration: none;
+}
+
+.footer_links a:hover {
+    color: var(--pink_font);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.footer_border {
+    border-left: 3px solid lightgray;
+    height: 15px;
+}
+
+
+/* login */
+
+.loginBox {
+    margin-top: 80px;
+}
+
+.decoration_box {
+    background-color: var(--pink_font);
+    height: 10px;
+    width: 400px;
+}
+
+.content_box {
+    align-content: center;
+    background-color: var(--purple_font);
+    height: 300px;
+    width: 400px;
+    color: white;
+    font-weight: bold;
+}
+
+.login-form {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.reacting-items {
+    margin-left: -12px;
+
+}
+
+.ent-btn {
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.names {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.game_box {
+    border: 2px solid lightgray;
+    background-color: ghostwhite;
+    height: 500px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+.list_item {
+    height: 61.5px;
+    width: 220px;
+    margin-top: 18px;
+    margin-left: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 8px;
+}
+
+.purple {
+    background-color: rebeccapurple;
+}
+
+.pink {
+    background-color: deeppink;
+}
+
+.success_message{
+    color: deeppink;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/* active page */
+.navbar-nav > .active > a {
+    color: deeppink;
+}
+
+.navbar-nav > .active > a {
+     color: deeppink;
+ }
+.nav-item > {
+    color: deeppink;
+}
