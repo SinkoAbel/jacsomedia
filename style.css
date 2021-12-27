@@ -197,16 +197,3 @@ footer{
     text-align: center;
     margin-top: 25px;
 }
-
-
-/* active page */
-.navbar-nav > .active > a {
-    color: deeppink;
-}
-
-.navbar-nav > .active > a {
-     color: deeppink;
- }
-.nav-item > {
-    color: deeppink;
-}
